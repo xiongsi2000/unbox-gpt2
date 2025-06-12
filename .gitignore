@@ -76,4 +76,8 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
-.hypothesis/ 
+.hypothesis/
+
+# Test fixtures
+fixtures/
+**/fixtures/ 
