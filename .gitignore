@@ -24,15 +24,26 @@ wheels/
 venv/
 env/
 ENV/
-.env
-.venv
+transformer_env/
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
+
+# OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+fixtures/
+*.log
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -79,5 +90,26 @@ coverage.xml
 .hypothesis/
 
 # Test fixtures
-fixtures/
-**/fixtures/ 
+tests/fixtures/
+**/fixtures/
+*.pt
+
+.claude/
+
+# Test cache
+.pytest_cache/
+.pytest_cache/
+**/.pytest_cache/
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/ 
