@@ -9,7 +9,7 @@ A hand-crafted Transformer implementation for education and research. All algori
 ## Highlights
 
 - **Manual BPE Tokenizer**  
-  Byte Pair Encoding, implemented from scratch. No third-party magic. Understand every step.
+  Byte Pair Encoding, implemented from scratch. No third-party magic. Understand every step. Meets basic performance requirements that gen-AI solutions cannot achieve.
 
 - **Modular Transformer**  
   All essential components. Each file is focused, readable, and easy to extend.
